@@ -1,0 +1,82 @@
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.chat-toggle-btn {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1001;
+}
+
+.chat-window {
+  width: 420px;
+  height: 550px;
+  background: rgb(89, 82, 82);
+  border: 1px solid #cbcaca;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.chat-header {
+  background: #ffc107;
+  color: black;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  color: black;
+  font-size: 16px;
+}
+
+.chat-box div {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+/* Aquí aplicamos los estilos solo a inputs dentro del chatbot */
+.chatbot-container input[type="text"] {
+  padding: 12px;
+  border: none;
+  border-top: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+}
+
+/* Botón de enviar con mejor contraste */
+.chat-window button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
