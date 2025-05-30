@@ -1,9 +1,0 @@
-com\carnaval\pasto\decorator\PlaceDecorator.class
-com\carnaval\pasto\repository\RutaCarnavalRepository.class
-com\carnaval\pasto\model\RutaCarnaval.class
-com\carnaval\pasto\observer\PlaceObserver.class
-com\carnaval\pasto\observer\LoggingObserver.class
-com\carnaval\pasto\controller\RutaCarnavalController.class
-com\carnaval\pasto\decorator\CarnavalPlace.class
-com\carnaval\pasto\service\RutaCarnavalService.class
-com\carnaval\pasto\CarnavalApplication.class
