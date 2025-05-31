@@ -1,39 +1,62 @@
-🚀 Project Setup Guide
-🖥️ Backend (Spring Boot)
-Requirements:
 
-Java 21 ☕
+---
 
-Maven 4.0.0 📦
+# 🚀 Guía de Configuración del Proyecto
 
-Spring Boot 3.5.0 🌱
+## 🖥️ Backend - Spring Boot
 
-Steps:
+### ✅ Requisitos
 
-bash
-Copiar
-Editar
-cd carnaval-bakend
-# Step 1: Clean and install dependencies
+* Java 21 ☕
+* Maven 4.0.0 📦
+* Spring Boot 3.5.0 🌱
+
+### 📂 Ruta del proyecto:
+
+```
+carnaval-backend/
+```
+
+### 🛠️ Pasos para ejecutar:
+
+```bash
+# 1. Entrar al directorio del backend
+cd carnaval-backend
+
+# 2. Limpiar y descargar dependencias
 mvn clean install
 
-# Step 2: Run the application
+# 3. Ejecutar la aplicación
 mvn spring-boot:run
-🌐 Frontend (Node.js + npm)
-Requirements:
+```
 
-Node.js 18+ 🟢
+---
 
-npm 9+ 📦
+## 🌐 Frontend - React + Node.js
 
-Steps:
+### ✅ Requisitos
 
-bash
-Copiar
-Editar
-cd carnaval-froned
-# Step 1: Install dependencies
+* Node.js 18+ 🟢
+
+### 📂 Ruta del proyecto:
+
+```
+carnaval-frontend/
+```
+
+### 🛠️ Pasos para ejecutar:
+
+```bash
+# 1. Entrar al directorio del frontend
+cd carnaval-frontend
+
+# 2. Instalar las dependencias
 npm install
 
-# Step 2: Run the application
+# 3. Ejecutar la aplicación
 npm run dev
+```
+
+---
+
+
